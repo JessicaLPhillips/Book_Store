@@ -31,3 +31,4 @@
 /config/master.key
 
 app/assets/stylesheets/.DS_Store
+app/controllers/.DS_Store
