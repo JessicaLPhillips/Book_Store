@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+controllers
   get 'home/index'
   get 'admin/show'
   get 'books/index'
@@ -10,5 +11,7 @@ Rails.application.routes.draw do
   get 'authors/show'
   get 'books/index'
   get 'books/show'
+
+  devise_for :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
