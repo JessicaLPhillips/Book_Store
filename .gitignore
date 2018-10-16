@@ -7,6 +7,8 @@
 # Ignore bundler config.
 /.bundle
 
+app/assets/stylesheets/.DS_Store
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
@@ -29,9 +31,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 app/assets/stylesheets/.DS_Store
 app/controllers/.DS_Store
