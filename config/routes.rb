@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-controllers
   get 'home/index'
   get 'admin/show'
   get 'books/index'
