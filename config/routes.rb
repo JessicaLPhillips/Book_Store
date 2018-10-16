@@ -1,16 +1,12 @@
 Rails.application.routes.draw do
-  get 'home/index'
-  get 'admin/show'
-  get 'books/index'
-  get 'books/show'
-  get 'books/create'
-  get 'sales/create'
-  get 'sales/show'
-  get 'authors/index'
-  get 'authors/show'
-  get 'books/index'
-  get 'books/show'
-
   devise_for :users
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+ root to: "books#index"
+  resources :books, only: :show do
+    resources :sales, only: [:new, :create]
+  end
+
+  get "/sales", to: "sales#index"
+
+  get "styleguide", to: "styleguide#index"
 end
+
