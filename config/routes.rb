@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   get "/sales", to: "sales#index"
 
-  get "styleguide", to: "styleguide#index"
+  get "/styleguide", to: "styleguide#index"
+
 end
 
