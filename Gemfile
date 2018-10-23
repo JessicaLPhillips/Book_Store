@@ -9,6 +9,10 @@ gem 'rails', '~> 5.2.1'
 gem 'stripe'
 
 gem 'devise'
+
+gem 'webpacker'
+
+gem 'react-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
