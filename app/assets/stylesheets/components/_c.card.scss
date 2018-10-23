@@ -19,6 +19,8 @@
   background: $c-white;
   padding: 0;
   overflow: hidden;
+  width: 75%;
+
 
   @media #{$bp-lap} {
     @include elevation(1);

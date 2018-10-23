@@ -17,6 +17,15 @@ img {
   display: inline-block;
   width: 100%;
 }
+.bg-image {
+background-image: image-url("books-with-door.jpeg");
+background-size: cover;
+background-repeat: none;
+background-position: center;
+position: absolute;
+height: 100%;
+width: 100%;
+}
 
 ::selection {
   background: $c-primary-light;
