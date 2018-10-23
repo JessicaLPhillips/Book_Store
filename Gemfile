@@ -9,6 +9,10 @@ gem 'rails', '~> 5.2.1'
 gem 'stripe'
 
 gem 'devise'
+
+gem 'webpacker'
+
+gem 'react-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -43,6 +47,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'rspec-rails', '~> 3.8'
+gem 'factory_bot_rails'
+gem 'faker'
 end
 
 group :development do
