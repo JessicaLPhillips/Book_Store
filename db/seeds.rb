@@ -7,21 +7,21 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 200.times do 
-	User.create({
-		email: Faker::Internet.email,
-		name: Faker::Name.name,
-		password: SecureRandom.hex(8)
-		})	
+  User.create({
+    email: Faker::Internet.email,
+    name: Faker::Name.name,
+    password: SecureRandom.hex(8)
+    })  
 
 end
 
 200.times do
-	Book.create({
-		title: Faker::Book.title,
-		author: Faker::Book.author,
-		price: rand(5..19),
-		body: Faker::Book.title
-		})
+  Book.create({
+    title: Faker::Book.title,
+    author: Faker::Book.author,
+    price: rand(5..19),
+    body: Faker::Book.title
+    })
 end
 
 
